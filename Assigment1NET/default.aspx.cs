@@ -92,7 +92,7 @@ namespace Assigment1NET
             double totalwinpercent = (totalwin*100) / 4;
            
 
-            //getting the value of scored
+            //getting the value of scored.
             int c1 = Convert.ToInt32(txtscored1.Text);
             int c2 = Convert.ToInt32(txtscored2.Text);
             int c3 = Convert.ToInt32(txtscored3.Text);
