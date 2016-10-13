@@ -21,8 +21,8 @@
         <div class="form-group ">
         <asp:Label for="valueresult1"  class="control-label " runat="server">Result:</asp:Label>
         <asp:RadioButtonList ID="valueresult1" runat="server" CssClass="btn-group" >
-            <asp:ListItem Value="1"  Text="win" ></asp:ListItem>
-            <asp:ListItem Value="0" Text="loss" ></asp:ListItem>
+            <asp:ListItem Value="w1"  Text="win" ></asp:ListItem>
+            <asp:ListItem Value="l1" Text="loss" ></asp:ListItem>
         </asp:RadioButtonList>
             <asp:RequiredFieldValidator ID="RequiredFieldValidator13" runat="server" ErrorMessage="Required" ControlToValidate="valueresult1" CssClass="alert-danger" Display="static"></asp:RequiredFieldValidator>
         </div>
@@ -56,8 +56,8 @@
         <div class="form-group ">
         <asp:Label for="valueresult2"  class="control-label " runat="server">Result:</asp:Label>
         <asp:RadioButtonList ID="valueresult2" runat="server"  CssClass="btn-group">
-            <asp:ListItem Value="1" Text="win" ></asp:ListItem>
-            <asp:ListItem Value="1" Text="loss" ></asp:ListItem>
+            <asp:ListItem Value="w2" Text="win" ></asp:ListItem>
+            <asp:ListItem Value="l2" Text="loss" ></asp:ListItem>
         </asp:RadioButtonList>
              <asp:RequiredFieldValidator ID="RequiredFieldValidator14" runat="server" ErrorMessage="Required" ControlToValidate="valueresult2" CssClass="alert-danger" Display="static"></asp:RequiredFieldValidator>
         </div>
@@ -95,8 +95,8 @@
         <div class="form-group ">
         <asp:Label for="valueresult3"  class="control-label " runat="server">Result:</asp:Label>
         <asp:RadioButtonList ID="valueresult3" runat="server" CssClass="btn-group" >
-            <asp:ListItem Value="1" Text="win" ></asp:ListItem>
-            <asp:ListItem Value="1" Text="loss" ></asp:ListItem>
+            <asp:ListItem Value="w3" Text="win" ></asp:ListItem>
+            <asp:ListItem Value="l3" Text="loss" ></asp:ListItem>
         </asp:RadioButtonList>
              <asp:RequiredFieldValidator ID="RequiredFieldValidator15" runat="server" ErrorMessage="Required" ControlToValidate="valueresult3" CssClass="alert-danger" Display="static"></asp:RequiredFieldValidator>
         </div>
@@ -131,8 +131,8 @@
         <div class="form-group ">
         <asp:Label for="valueresult4"  class="control-label " runat="server">Result:</asp:Label>
         <asp:RadioButtonList ID="valueresult4" runat="server" CssClass="btn-group" >
-            <asp:ListItem Value="1" Text="win"  ></asp:ListItem>
-            <asp:ListItem Value="1" Text="loss"  ></asp:ListItem>
+            <asp:ListItem Value="w4" Text="win"  ></asp:ListItem>
+            <asp:ListItem Value="l4" Text="loss"  ></asp:ListItem>
         </asp:RadioButtonList>
              <asp:RequiredFieldValidator ID="RequiredFieldValidator16" runat="server" ErrorMessage="Required" ControlToValidate="valueresult4" CssClass="alert-danger" Display="static"></asp:RequiredFieldValidator>
         </div>
@@ -182,7 +182,7 @@
    <h2>Results</h2>  
 <div>          
 <label>Wins:</label> 
-<asp:Label ID="l1" runat="server" Text="" />
+<asp:Label ID="l1" runat="server" />
 </div>
 <div>
 <label>Losses:</label> 
